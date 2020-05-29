@@ -20,10 +20,13 @@ public class SpringBootHybernateProjectApplication implements CommandLineRunner 
 
 	@Override
 	public void run(String... args) throws Exception {
+		/*
 		Employee employee = getEmployee();
 		employeeDao.createEmployee(employee);
-	}
 
+		 */
+	}
+	/*
 	private Employee getEmployee() {
 		Employee employee = new Employee();
 		employee.setName("John Doe");
@@ -31,4 +34,6 @@ public class SpringBootHybernateProjectApplication implements CommandLineRunner 
 		employee.setDoj(new Date());
 		return employee;
 	}
+
+	 */
 }
